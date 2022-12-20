@@ -1,8 +1,13 @@
-# Sample Hardhat Project
+# Sample Project To show How to Read Private Slot
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project shows how to read a private slot in the solidity smart contract. There is no privacy on blockchain, so do not put any secret onchain.
 
-Try running some of the following tasks:
+```shell
+yarn install
+# run the test script
+yarn hardhat test
+
+```
 
 ```shell
 npx hardhat help
